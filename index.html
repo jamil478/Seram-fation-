@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serum.curiyan.BD | Luxury Skincare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-pink: #f8c0c8;
+            --dark-pink: #e08e9b;
+            --gold: #d4af37;
+            --dark-text: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffafb;
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+
+        .container { width: 90%; max-width: 1100px; margin: auto; }
+
+        /* Header Section */
+        header {
+            background: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid var(--primary-pink);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            color: var(--dark-pink);
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 60px 0;
+            text-align: center;
+            background: linear-gradient(180deg, #fff 0%, var(--primary-pink) 100%);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p { font-size: 18px; color: #666; }
+
+        /* Product Image Section */
+        .product-showcase {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 40px 0;
+            gap: 20px;
+        }
+
+        .img-card {
+            background: #fff;
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            max-width: 320px;
+            transition: transform 0.3s;
+        }
+
+        .img-card:hover { transform: translateY(-10px); }
+
+        .img-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Pricing & Details */
+        .details-section {
+            background: #fff;
+            padding: 50px 20px;
+            border-radius: 20px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .price-box {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .old-price { text-decoration: line-through; color: #999; margin-right: 15px; }
+        .new-price { color: var(--dark-pink); font-weight: bold; font-size: 32px; }
+
+        /* CTA Button */
+        .cta-button {
+            display: inline-block;
+            background: #25D366; /* WhatsApp Green */
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover { background: #1ebe57; transform: scale(1.05); }
+
+        /* Benefits List */
+        .benefits {
+            text-align: left;
+            display: inline-block;
+            margin: 30px 0;
+        }
+
+        .benefits li { margin-bottom: 10px; list-style: none; position: relative; }
+        .benefits li::before { content: '✨'; margin-right: 10px; }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: var(--primary-pink);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">SERUM.CURIYAN.BD</div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Premium Peach 70 Niacinamide Serum</h1>
+            <p>Ekhon Bangladesh-e Prothom-bar! Peye Jan Glass Skin-er Shustho Ujjolota.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="product-showcase">
+            <div class="img-card">
+                <img src="https://raw.githubusercontent.com/jamil478/My-sobi-/e035185152b06ebb8cfd2fc7f39f685b8c1adea8/1000083599.png" alt="Ingredients">
+                <p style="text-align:center; font-weight:bold; margin-top:10px;">Natural Ingredients</p>
+            </div>
+            
+            <div class="img-card">
+                <img src="https://raw.githubusercontent.com/jamil478/My-sobi-/9353c6c22fe2e803a98a02481f5ca54e16095f57/1000083595.png" alt="Results">
+                <p style="text-align:center; font-weight:bold; margin-top:10px;">Visible Results</p>
+            </div>
+
+            <div class="img-card">
+                <img src="https://raw.githubusercontent.com/jamil478/My-sobi-/7da4a5e6b8c4835757179527b4b5401d0fcdc880/1000083597.png" alt="Before After">
+                <p style="text-align:center; font-weight:bold; margin-top:10px;">Skin Transformation</p>
+            </div>
+        </div>
+
+        <section class="details-section">
+            <h2 style="font-family: 'Playfair Display'; color: var(--dark-pink);">Keno Amader Ei Serum-ti Shobcheye Shera?</h2>
+            <ul class="benefits">
+                <li>70% Peach Extract ja twok-ke kora moisturizing.</li>
+                <li>Niacinamide-er magic-e kacher moto glass skin.</li>
+                <li>Dakh door kore twok-ke kore ujjol o moshreen.</li>
+                <li>Shorashori Bahir theke amdanikrito premium quality.</li>
+            </ul>
+
+            <div class="price-box">
+                <span class="old-price">৳২২০০</span>
+                <span class="new-price">৳১৪৯৯</span>
+            </div>
+
+            <p style="font-weight: bold;">Simito Shomoyer Offer! Ekhoni Order Korun.</p>
+            
+            <a href="https://wa.me/8801616700055?text=Hi, Ami Peach 70 Serum ti order korte chai." class="cta-button">
+                WhatsApp-e Order Korun
+            </a>
+        </section>
+    </div>
+
+    <footer>
+        &copy; 2026 Serum.curiyan.BD | All Rights Reserved.
+    </footer>
+
+</body>
+</html>
